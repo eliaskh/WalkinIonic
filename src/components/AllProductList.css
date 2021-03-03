@@ -1,0 +1,20 @@
+#card {
+  --background: white;
+  --color: rgb(163, 163, 163);
+  margin-top: 2rem;
+}
+#title {
+  padding-top: 1rem;
+  --color: rgb(37, 37, 37);
+}
+ion-card-title {
+  color: black;
+}
+#icon {
+  color: black;
+}
+#image {
+  max-height: 250px;
+  height: 250px;
+  object-fit: cover;
+}

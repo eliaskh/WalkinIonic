@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">walkin</string>
+    <string name="title_activity_main">walkin</string>
+    <string name="package_name">com.walkin.first.app</string>
+    <string name="custom_url_scheme">com.walkin.first.app</string>
+</resources>
