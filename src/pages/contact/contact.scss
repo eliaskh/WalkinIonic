@@ -1,0 +1,25 @@
+.contact-us-nine-content {
+  ion-img {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  h1 {
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 40px;
+  }
+  div {
+    height: 100%;
+    background: #ffffff;
+    .item-input {
+      // border: solid 1px lightgray;
+      border-radius: 5px;
+      --background: #ffffff;
+      color: black;
+    }
+  }
+  .textarea-wrapper {
+    background: #ffffff;
+  }
+}
