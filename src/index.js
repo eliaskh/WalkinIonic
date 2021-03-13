@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import ProductProvider from './context/products';
+import UserProvider from './context/user';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ProductProvider>
+      <UserProvider>
+        <App />
+      </UserProvider>
+    </ProductProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

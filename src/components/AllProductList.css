@@ -18,3 +18,9 @@ ion-card-title {
   height: 250px;
   object-fit: cover;
 }
+.icons {
+  font-size: 25px;
+}
+.ion-text-center {
+  text-transform: capitalize;
+}
